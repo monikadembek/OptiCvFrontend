@@ -9,7 +9,13 @@
     "test": "jest",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch",
-    "test:ci": "jest --runInBand"
+    "test:ci": "jest --runInBand",
+    "start:dev": "ng serve --configuration=development",
+    "start:test": "ng serve --configuration=test",
+    "start:prod": "ng serve --configuration=production",
+    "build:dev": "ng build --configuration=development",
+    "build:test": "ng build --configuration=test",
+    "build:prod": "ng build --configuration=production"
   },
   "private": true,
   "dependencies": {
